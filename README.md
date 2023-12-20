@@ -1,5 +1,5 @@
 # [Wallpaper_Collection] for the [MiSTer Platform](https://github.com/MiSTer-devel/Main_MiSTer/wiki)
-This is a collection of 1080p wallpapers that I've found and edited for my own use. Every single wallpaper has been altered so that they appear correctly and take into account the MiSTer logo. It's challenging to find and credit the original artists behind each of these images but they are appreciated.
+This is a collection of **1080p** wallpapers that I've found and edited for my own use. Every single wallpaper has been altered so that they appear correctly and take into account the MiSTer logo. It's challenging to find and credit the original artists behind each of these images but they are appreciated.
 
 
 ## Installation
