@@ -1,56 +1,34 @@
-# Custom Database Template for the MiSTer Downloader
+# [Wallpaper_Collection] for the [MiSTer Platform](https://github.com/MiSTer-devel/Main_MiSTer/wiki)
+This is a collection of wallpapers that I've discovered and edited for my own use. 
 
-By following these instructions, you'll create your own [Custom Database for the MiSTer Downloader](https://github.com/MiSTer-devel/Downloader_MiSTer/blob/main/docs/custom-databases.md). This database can be integrated in MiSTer FPGA by just editing the `downloader.ini` file at the root of the SD.
+These are video preset files you can use to easily configure a core's video settings. These presets present an idealized version how a game platform's visuals appeared when it was new and provides you a starting point to make your own presets. Have fun!
 
-Once your database is up, adding files to it is very simple. You'll only have to upload files to your repository on GitHub, and after that, your users will fetch these files directly in their devices, by just running *downloader* or *update_all*.
 
-## How to generate your own Custom Database for the MiSTer Downloader:
-1. Make sure you are logged in into your GitHub account. Or register a new account if you don't have any yet.
-2. Then click on
-    <a style="margin-top:100px;" href="https://github.com/theypsilon/DB-Template_MiSTer/generate">
-        <img src="https://img.shields.io/badge/Use_this_template-2ea44f" 
-            alt="Use this template"
-            title="Create repository from this template"></a>
-button to create your own public Custom Database repository on GitHub.
-3. After less than 5 minutes, you're database file will be generated at `https://raw.githubusercontent.com/<YOUR GITHUB USER>/<YOUR GITHUB REPOSITORY>/db/db.json.zip` (replacing the <> fields accordingly) and will be ready to be used. For example, if your GitHub user is `jose` and your repository name is `game_wallpapers`, the url will be: `https://raw.githubusercontent.com/jose/game_wallpapers/db/db.json.zip`
-4. To integrate it in a MiSTer device, add the following section to the end of to the file `downloader.ini` that should be placed at the root of the SD (if it doesn't exist, you may create it for this purpose):
+
+## Installation
+Download [all presets](https://github.com/RGarciaLago/VIDEO-PRESETS-by-Robby/tree/main/Presets) to the `/media/fat/wallpapers/` folder on your SD card.
+
+### Updates
+You can automatically download and get latest with the MiSTer update script and [update_all](https://github.com/theypsilon/Update_All_MiSTer) by adding the following text to `/media/fat/downloader.ini`:
 ```ini
-[<YOUR GITHUB USER>/<YOUR GITHUB REPOSITORY>]
-db_url = https://raw.githubusercontent.com/<YOUR GITHUB USER>/<YOUR GITHUB REPOSITORY>/db/db.json.zip
-```
-5. After that, run *downloader* or *update_all* as usual. It will try to fetch the files from your newly created database. If your database is still empty -which is your case if you followed these instructions-, obviously it won't download any file yet, but it will show up in the logs. For adding files to the database check the next section.
-
-## How to add files to your already working Custom Database:
-
-Once you have your database up and running (check previous section to figure out how to set it up), adding files is very straightforward.
-
-Just upload any file to your repository by using GitHub UI (Add File > Upload files), or via git. Once the files show up in your repository, they'll also be added to your database automatically. You may see the *Actions* tab in your repository to see how the automation did its magic if you are curious. **NEW:** If you want to add files without uploading them to the repository, you may use the [external_files.csv](external_files.csv) file for that.
-
-A couple of things to consider when uploading files:
-
-- When a user fetches the files via *downloader* or *update_all*, the downloaded file structure will mirror 1:1 the file structure you have in your repository at GitHub. This means, if you have a folder `_Cores/` containing some files in your repository, an identical `_Cores` folder will show up in MiSTer containing the exact same files.
-
-- The files README.md, LICENSE, build_db.py, and the .github folder won't be included in your database. Just ignore them, they won't be installed in the devices.
-
-- You may upload as many files as you want as long as they don't violate GitHub constraints (100mb is max size per file).
-
-- You should avoid full path clashes between your files and the files from other databases so that your users don't run into issues when using multiple databases at the same time.
-
-## How your users will integrate your Custom Database in their MiSTers:
-
-Your users will just have to do the **step 4** of the "How to generate" section. So you should add those lines to your documentation replacing the placeholders with the correct GitHub user and repository name.
-
-For example, assuming GitHub user is "jose" and the repository is called "game_wallpapers", your users will have to add these lines to the bottom of `downloader.ini`:
-
-```ini
-[jose/game_wallpapers]
-db_url = https://raw.githubusercontent.com/jose/game_wallpapers/db/db.json.zip
+[RGarciaLago/Wallpaper_Collection]
+db_url = https://raw.githubusercontent.com/RGarciaLago/Wallpaper_Collection/db/db.json.zip
 ```
 
-This needs to be done just once by your users. After that, whenever they run *downloader* or *update_all* they'll also be installing your updated files.
 
-## Modifying README.md
+## Usage
+If you're not familiar with the process of adding wallpapers then follow the instructions below:
+1. One the root of your micro SD card (`//media/fat`), create a folder called **wallpaper**.
+3. Remove the menu.jpg/menu.png file (if present) from the root of the micro SD card.
+4. Press `F1` to cycle through the default images until it displays one of your custom wallpapers.
+5. Every time your restart your MiSTer, a new wallpaper will be randomly selected.
 
-After you have your own repository based on this template, a good idea would be to edit your `README.md` describing the content of your database and how to use it. That way users will learn about your Database and will integrate it into their MiSTer's easily.
+You can have different wallpaper folders per different ini; please see the [Wiki_MiSTer Customizing](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki/Customizing) page for more info.
 
-Feel free to remove any reference to the original template there.
+
+## More Resources
+Use my [MGL_Core_Setnames](https://github.com/RGarciaLago/MGL_Core_Setnames) pack of core shortcuts (MGL files) to have different configs in a core for video presets. Also available are my [VIDEO_PRESETS_by_Robby](https://github.com/RGarciaLago/VIDEO_PRESETS_by_Robby) to quickly setup a core to look authentically retro.
+
+Check out [Wizzo](https://github.com/wizzomafizzo)'s amazing set of [MiSTer Extensions](https://github.com/wizzomafizzo/mrext) to improve your MiSTer user experience.
+
+Thanks to [theypsilon](https://github.com/theypsilon) for the custom database!
