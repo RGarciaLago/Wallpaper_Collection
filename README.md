@@ -1,12 +1,9 @@
 # [Wallpaper_Collection] for the [MiSTer Platform](https://github.com/MiSTer-devel/Main_MiSTer/wiki)
-This is a collection of wallpapers that I've discovered and edited for my own use. 
-
-These are video preset files you can use to easily configure a core's video settings. These presets present an idealized version how a game platform's visuals appeared when it was new and provides you a starting point to make your own presets. Have fun!
-
+This is a collection of 1080p wallpapers that I've found and edited for my own use. Every single wallpaper has been altered so that they appear correctly and take into account the MiSTer logo. It's challenging to find and credit the original artists behind each of these images but they are appreciated.
 
 
 ## Installation
-Download [all presets](https://github.com/RGarciaLago/VIDEO-PRESETS-by-Robby/tree/main/Presets) to the `/media/fat/wallpapers/` folder on your SD card.
+Download [all presets](https://github.com/RGarciaLago/Wallpaper_Collection/tree/main/wallpapers) to the `/media/fat/wallpapers/` folder on your SD card. Remove the menu.jpg/menu.png file (if present) from the root of the micro SD card if those files exist.
 
 ### Updates
 You can automatically download and get latest with the MiSTer update script and [update_all](https://github.com/theypsilon/Update_All_MiSTer) by adding the following text to `/media/fat/downloader.ini`:
@@ -17,13 +14,7 @@ db_url = https://raw.githubusercontent.com/RGarciaLago/Wallpaper_Collection/db/d
 
 
 ## Usage
-If you're not familiar with the process of adding wallpapers then follow the instructions below:
-1. One the root of your micro SD card (`//media/fat`), create a folder called **wallpaper**.
-3. Remove the menu.jpg/menu.png file (if present) from the root of the micro SD card.
-4. Press `F1` to cycle through the default images until it displays one of your custom wallpapers.
-5. Every time your restart your MiSTer, a new wallpaper will be randomly selected.
-
-You can have different wallpaper folders per different ini; please see the [Wiki_MiSTer Customizing](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki/Customizing) page for more info.
+If this is your first time using custom wallpapers then with a keyboard attached and on the main menu, press `F1` to cycle through the default images until it displays one of your custom wallpapers. Every time your restart your MiSTer, a new wallpaper will be randomly selected. You can have different wallpaper folders per different ini; please see the [Wiki_MiSTer Customizing](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki/Customizing) page for more info.
 
 
 ## More Resources
