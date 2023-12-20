@@ -3,7 +3,7 @@ This is a collection of 1080p wallpapers that I've found and edited for my own u
 
 
 ## Installation
-Download [all presets](https://github.com/RGarciaLago/Wallpaper_Collection/tree/main/wallpapers) to the `/media/fat/wallpapers/` folder on your SD card. Remove the menu.jpg/menu.png file (if present) from the root of the micro SD card if those files exist.
+Download [all wallpapers](https://github.com/RGarciaLago/Wallpaper_Collection/tree/main/wallpapers) to the `/media/fat/wallpapers/` folder on your SD card. Remove the menu.jpg/menu.png file (if present) from the root of the micro SD card if those files exist.
 
 ### Updates
 You can automatically download and get latest with the MiSTer update script and [update_all](https://github.com/theypsilon/Update_All_MiSTer) by adding the following text to `/media/fat/downloader.ini`:
