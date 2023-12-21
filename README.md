@@ -4,7 +4,7 @@ This is a collection of **1080p** wallpapers that I've found and edited for my o
 
 
 ## Installation
-Download [all wallpapers](https://github.com/RGarciaLago/Wallpaper_Collection/tree/main/wallpapers) to the `/media/fat/wallpapers/` folder on your SD card. Remove the menu.jpg/menu.png file (if present) from the root of the micro SD card if those files exist.
+Download all [wallpapers](https://github.com/RGarciaLago/Wallpaper_Collection/tree/main/wallpapers) to the `/media/fat/wallpapers/` (root folder) on your SD card. Remove the menu.jpg/menu.png file from the root folder of the micro SD card if those files exist.
 
 ### Updates
 You can automatically download and get latest with the MiSTer update script and [update_all](https://github.com/theypsilon/Update_All_MiSTer) by adding the following text to `/media/fat/downloader.ini`:
@@ -15,7 +15,7 @@ db_url = https://raw.githubusercontent.com/RGarciaLago/Wallpaper_Collection/db/d
 
 
 ## Usage
-If this is your first time using custom wallpapers then with a keyboard attached and on the main menu, press `F1` to cycle through the default images until it displays one of your custom wallpapers. Every time your restart your MiSTer, a new wallpaper will be randomly selected. You can have different wallpaper folders per different ini; please see the [Wiki_MiSTer Customizing](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki/Customizing) page for more info.
+If this is your first time using custom wallpapers, then you'll need to swap your MiSTer's background to custom wallpapers. To do that, you'll need a keyboard attached and on the main menu, press `F1` to cycle through the default images until it displays one of the custom wallpapers. Every time your restart your MiSTer, a new wallpaper will be randomly selected. You can have different wallpaper folders per different ini; please see the [Wiki_MiSTer Customizing](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki/Customizing) page for more info.
 
 
 ## More Resources
@@ -23,4 +23,4 @@ Use my [MGL_Core_Setnames](https://github.com/RGarciaLago/MGL_Core_Setnames) pac
 
 Check out [Wizzo](https://github.com/wizzomafizzo)'s amazing set of [MiSTer Extensions](https://github.com/wizzomafizzo/mrext) to improve your MiSTer user experience.
 
-Thanks to [Ranny-Snice] for inspiring me with his amazing set of wallpapers and [theypsilon](https://github.com/theypsilon) for the custom database!
+Thanks to [Ranny-Snice](https://github.com/Ranny-Snice/Ranny-Snice-Wallpapers) for inspiring me with his amazing set of wallpapers and [theypsilon](https://github.com/theypsilon) for the custom database!
