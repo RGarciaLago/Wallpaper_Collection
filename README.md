@@ -23,4 +23,4 @@ Use my [MGL_Core_Setnames](https://github.com/RGarciaLago/MGL_Core_Setnames) pac
 
 Check out [Wizzo](https://github.com/wizzomafizzo)'s amazing set of [MiSTer Extensions](https://github.com/wizzomafizzo/mrext) to improve your MiSTer user experience.
 
-Thanks to [theypsilon](https://github.com/theypsilon) for the custom database!
+Thanks to [Ranny-Snice] for inspiring me with his amazing set of wallpapers and [theypsilon](https://github.com/theypsilon) for the custom database!
