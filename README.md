@@ -1,10 +1,10 @@
 # [Wallpaper_Collection] for the [MiSTer Platform](https://github.com/MiSTer-devel/Main_MiSTer/wiki)
 ##### ❗ ***None of the art or photos in this repository are my own. These were found online in public databases and all credit goes to the original artist, whoever they may be.***
-This is a collection of **1080p** wallpapers that I've found and edited for my own use. Every single wallpaper has been altered so that they appear correctly and take into account the MiSTer logo.
+This is a collection of **1080p** wallpapers that I've collected and edited for my own use. Every single wallpaper has been altered so that they appear correctly and take into account the MiSTer logo.
 
 
 ## Installation
-Download all [wallpapers](https://github.com/RGarciaLago/Wallpaper_Collection/tree/main/wallpapers) to the `/media/fat/wallpapers/` (root folder) on your SD card. Remove the menu.jpg/menu.png file from the root folder of the micro SD card if those files exist.
+Download all [wallpapers](https://github.com/RGarciaLago/Wallpaper_Collection/tree/main/wallpapers) to the `/media/fat/wallpapers/` (root folder) on your SD card. Remove the **menu.jpg/menu.png** file from the root folder of the micro SD card if those files exist.
 
 ### Updates
 You can automatically download and get latest with the MiSTer update script and [update_all](https://github.com/theypsilon/Update_All_MiSTer) by adding the following text to `/media/fat/downloader.ini`:
