@@ -15,7 +15,7 @@ db_url = https://raw.githubusercontent.com/RGarciaLago/Wallpaper_Collection/db/d
 
 
 ## Usage
-If this is your first time using custom wallpapers, then you'll need to swap your MiSTer's background to custom wallpapers. To do that, you'll need a keyboard attached and on the main menu, press `F1` to cycle through the default images until it displays one of the custom wallpapers. Every time your restart your MiSTer, a new wallpaper will be randomly selected. You can have different wallpaper folders per different ini; please see the [Wiki_MiSTer Customizing](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki/Customizing) page for more info.
+If this is your first time using custom wallpapers, then you'll need to swap your MiSTer's background to custom wallpapers. To do that, you'll need a keyboard attached and on the main menu, press `F1` to cycle through the default backgrounds until it displays one of the custom wallpapers. Every time you restart the MiSTer, a new wallpaper will be randomly selected. You can have different wallpaper folders per different ini; please see the [Wiki_MiSTer Customizing](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki/Customizing) page for more info.
 
 
 ## More Resources
